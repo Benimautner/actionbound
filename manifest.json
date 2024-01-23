@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Actionbound Rating Download",
+    "description": "This extension can download the ratings of an Actionbound game in a per-team list. The file provided is an .xlsx file.",
+    "version": "1.0",
+    "action": {
+      "default_popup": "hello.html"
+    },
+    "content_scripts": [
+        {
+          "matches": ["https://*.actionbound.com/*"],
+          "js": ["content.js"],
+          "match_origin_as_fallback": false,
+          "match_about_blank": false,
+          "run_at": "document_idle",
+          "world": "ISOLATED"
+        }
+    ],
+    "permissions": [
+        "activeTab",
+        "scripting"
+      ],
+      "icons": {
+        "64": "logo.png"
+      }
+  }
