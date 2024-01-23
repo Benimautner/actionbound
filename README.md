@@ -1,4 +1,4 @@
---
+----
 english
 
 This extension allows the user to download a list of all reviews left on an Actionbound bound. It exists because actionbound refuses to add those to the download options they provide.
@@ -10,7 +10,7 @@ All of the text is in German but simple to use as there are only a maximum of tw
 - When it's done, a second link, "Als XLSX Speichern," will appear. Click it, and the finished file will download.
 - Due to the weird nature of how Actionbound provides datestamps, the last column tries to parse them with the "DATEVALUE" formula. For this to work, select the whole column L and set it to be a Date.
 
---
+----
 german
 
 Diese Erweiterung ermöglicht es dem Benutzer, eine Liste aller Bewertungen herunterzuladen, die auf einer Actionbound-Seite hinterlassen wurden. Sie existiert, weil Actionbound sich weigert, diese zu den Download-Optionen hinzuzufügen, die sie anbieten.
