@@ -17,8 +17,7 @@
         }
     ],
     "permissions": [
-        "activeTab",
-        "scripting"
+        "activeTab"
       ],
       "icons": {
         "64": "logo.png"
